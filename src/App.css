@@ -1,4 +1,4 @@
-* Box sizing rules */
+
 *,
 *::before,
 *::after {
@@ -11,7 +11,7 @@
   background-color: rgba(128, 128, 128,0.1);
 }
 
-/* Remove default margin */
+
 body,
 h1,
 h2,
@@ -25,38 +25,39 @@ dd {
   margin: 0;
 }
 
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+
 ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
 
-/* Set core root defaults */
+
 html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
+
 body {
+  font-family: 'IBM Plex Sans', sans-serif;;
   min-width: 360px;
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
-/* A elements that don't have a class get default styles */
+
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/* Make images easier to work with */
+
 img,
 picture {
   max-width: 100%;
   display: block;
 }
 
-/* Inherit fonts for inputs and buttons */
+
 input,
 button,
 textarea,
@@ -64,7 +65,7 @@ select {
   font: inherit;
 }
 
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
    scroll-behavior: auto;
@@ -79,7 +80,7 @@ select {
     scroll-behavior: auto !important;
   }
 }
-/* Nav component css*/
+
 .nav{
   height:24px;
   gap:7px;
@@ -236,7 +237,7 @@ color: #212529;
   font-weight: 600;
 font-size: 22px;
 line-height: 30px;
-/* or 30px */
+
 
 
 color: #000000;
@@ -247,7 +248,6 @@ color: #000000;
   font-weight: 400;
   font-size: 19px;
   line-height: 134.17%;
-/* or 25px */
 overflow-x: hidden;
 color: #5C5C5C;
 }
@@ -272,7 +272,7 @@ color: #5C5C5C;
     font-weight: 600;
   font-size: 16px;
   line-height: 21px;
-  /* or 30px */
+
   
   
   color: #000000;
@@ -381,7 +381,7 @@ color: #008A45;
   font-weight: 400;
 font-size: 13px;
 line-height: 17px;
-/* identical to box height */
+
 
 text-align: right;
 margin-right: 0px;
@@ -392,7 +392,7 @@ color: #3D3D3D;
   font-weight: 400;
   font-size: 13px;
   line-height: 17px;
-  /* identical to box height */
+ 
   
   text-align: right;
 }
@@ -401,7 +401,7 @@ color: #3D3D3D;
   font-weight: 400;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+
 
 text-align: right;
 letter-spacing: -0.008em;
